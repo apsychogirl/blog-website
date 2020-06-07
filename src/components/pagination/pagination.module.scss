@@ -1,0 +1,33 @@
+@import "../../styles/theme";
+@import "../../styles/mixins/rhythm";
+
+.pagination_container {
+  @include margin-bottom(1.5);
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+
+  & p {
+    @include margin-bottom(0.3);
+  }
+}
+
+.previous {
+  display: block;
+  text-align: left;
+}
+
+.next {
+  display: block;
+  text-align: right;
+}
+
+.pagination_label {
+  margin-bottom: 0;
+  color: $color-secondary;
+}
