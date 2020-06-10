@@ -1,11 +1,11 @@
-import React from "react"
-import styles from "./footer.module.scss"
-import { useSiteMetadata } from "../../hooks/use-site-metadata"
-import { OutboundLink } from 'gatsby-plugin-gtag'
+import React from 'react';
+import styles from './footer.module.scss';
+import {useSiteMetadata} from '../../hooks/use-site-metadata';
+import {OutboundLink} from 'gatsby-plugin-gtag';
 
 const Footer = () => {
-  const data = useSiteMetadata()
-  const { copyright, sourceCode } = data
+  const data = useSiteMetadata ();
+  const {copyright, sourceCode} = data;
 
   return (
     <footer>
@@ -16,10 +16,10 @@ const Footer = () => {
         rel="noopener noreferrer"
         className={styles.sourcecode}
       >
-        View Source Code
+        GitHub
       </OutboundLink>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
