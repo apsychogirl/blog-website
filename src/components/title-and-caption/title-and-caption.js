@@ -17,7 +17,7 @@ const TitleAndCaption = ({ data }) => {
         <p>
           {subtitle}
           <span className={styles.website}>
-            Checkout my <OutboundLink href={website} target="_blank" rel="noopener noreferrer">website.</OutboundLink>
+           Cisco Intern 2019 | Open-Source Contributor at Mozilla | 22 y.o 👩🏻‍💻 <OutboundLink href={website} target="_blank" rel="noopener noreferrer">You can follow me on Twitter. </OutboundLink>
           </span>
         </p>
       </div>
